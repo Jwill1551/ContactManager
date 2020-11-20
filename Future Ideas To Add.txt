@@ -1,0 +1,16 @@
+Reminder -> Push to github
+
+Future Features:
+- Export all contacts into an excel format
+- Implement a password protection system
+- Touch up the user interface 
+- Share Contacts with other people
+- Add images to contacts 
+- Like contacts or add them as favorites 
+- Import contacts from a file or excel file
+
+Future Android Projects:
+
+- RPG App
+- wallpaper creater App
+- Social Media post editor App

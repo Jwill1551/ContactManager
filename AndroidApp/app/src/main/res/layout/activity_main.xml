@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/createBtn"
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="80dp"
+        android:onClick="createBtnClick"
+        android:text="Create Contact "
+        app:backgroundTint="#FF7373"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/managerTitle" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:text="Search Contact "
+        app:backgroundTint="#85D1E4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createBtn" />
+
+    <Button
+        android:id="@+id/removeBtn"
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:text="Remove Contact "
+        app:backgroundTint="#C085E4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBtn" />
+
+    <Button
+        android:id="@+id/displayBtn"
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="36dp"
+        android:text="Display All Contacts"
+        app:backgroundTint="#7FD674"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/removeBtn" />
+
+    <Button
+        android:id="@+id/fileBtn"
+        android:layout_width="251dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:text="Import/Export Contacts"
+        app:backgroundTint="#7FD674"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="424dp"
+        android:layout_height="182dp"
+        android:background="#3A36A6"
+        android:text="colorShade"
+        android:textColor="@color/mainColor"
+        android:textColorHint="#A14646"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-66dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="424dp"
+        android:layout_height="182dp"
+        android:background="#3A36A6"
+        android:text="colorShade"
+        android:textColor="@color/mainColor"
+        android:textColorHint="#A14646"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-66dp" />
+
+    <TextView
+        android:id="@+id/managerTitle"
+        android:layout_width="225dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="52dp"
+        android:autoText="false"
+        android:gravity="center"
+        android:text="@string/ApplicationTitle"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
